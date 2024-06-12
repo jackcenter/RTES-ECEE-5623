@@ -33,7 +33,9 @@ pthread_attr_t main_sched_attr;
 int rt_max_prio, rt_min_prio, min;
 struct sched_param main_param;
 
-
+/**
+ * Displays scheduler information for the current process to the terminal.
+ */
 void print_scheduler(void)
 {
    int schedType;
@@ -56,7 +58,13 @@ void print_scheduler(void)
    }
 }
 
-
+/**
+ * Returns the time between `fstart` and `fstop` in seconds.
+ *
+ * @param fstart Pointer to the `timespec` that represents the starting time.
+ * @param fstop Pointer to the `timespec` that represents the stoping time.
+ * @return A double the represents the time between `fstart` and `fstop` in seconds.
+ */
 double d_ftime(struct timespec *fstart, struct timespec *fstop)
 {
   double dfstart = ((double)(fstart->tv_sec) + ((double)(fstart->tv_nsec) / 1000000000.0));
@@ -66,6 +74,16 @@ double d_ftime(struct timespec *fstart, struct timespec *fstop)
 }
 
 
+/**
+ * Modifies `delta_t` with the difference between 'stop' and 'start' timespecs
+ *
+ * @param[in] stop Pointer to the `timespec` that represents the stoping time.
+ * @param[in] start Pointer to the `timespec` that represents the starting time.
+ * @param[out] detla_t Pointer the the `timespec` where the difference between `stop` and `start` will be stored.
+ * @return 0 if function executes correctly.
+ * @return -1 otherwise.
+ *
+ */
 int delta_t(struct timespec *stop, struct timespec *start, struct timespec *delta_t)
 {
   int dt_sec=stop->tv_sec - start->tv_sec;
@@ -142,6 +160,13 @@ static struct timespec delay_error = {0, 0};
 
 #define TEST_ITERATIONS (100)
 
+/**
+ * Runs a test to compare the `nanosleep` function delay to the delay meausured by the clock. This
+ * function is intended to be run in a thread.
+ *
+ * @param threadID Pointer to the `threadID` required to run this function with pthread.
+ * @return void* required to run this function with pthread.
+ */
 void *delay_test(void *threadID)
 {
   int idx, rc;
@@ -196,6 +221,9 @@ void *delay_test(void *threadID)
 
 }
 
+/**
+ * Convinience function to publishes test results from the `delay_test`.
+ */
 void end_delay_test(void)
 {
     double real_dt;
@@ -224,6 +252,7 @@ void end_delay_test(void)
 
 #define RUN_RT_THREAD
 
+
 void main(void)
 {
    int rc, scope;
@@ -232,6 +261,7 @@ void main(void)
    print_scheduler();
 
 #ifdef RUN_RT_THREAD
+   // Set up the main process
    pthread_attr_init(&main_sched_attr);
    pthread_attr_setinheritsched(&main_sched_attr, PTHREAD_EXPLICIT_SCHED);
    pthread_attr_setschedpolicy(&main_sched_attr, SCHED_FIFO);
@@ -252,6 +282,7 @@ void main(void)
    printf("After adjustments to scheduling policy:\n");
    print_scheduler();
 
+   // Set up the thread to run the delay_test
    main_param.sched_priority = rt_max_prio;
    pthread_attr_setschedparam(&main_sched_attr, &main_param);
 
@@ -264,6 +295,7 @@ void main(void)
        exit(-1);
    }
 
+   // Wait for the delay_test to complete and rejoin the thread
    pthread_join(main_thread, NULL);
 
    if(pthread_attr_destroy(&main_sched_attr) != 0)
