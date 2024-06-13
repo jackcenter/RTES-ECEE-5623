@@ -31,10 +31,11 @@ int sched_setattr(pid_t pid, const struct sched_attr *attr, unsigned int flags)
 
 void * threadA(void *p) 
 {
+    const uint32_t policy = *(uint32_t *)p;
     struct sched_attr attr = 
     {
         .size = sizeof (attr),
-        .sched_policy = SCHED_DEADLINE,
+        .sched_policy = policy,
         .sched_runtime = 10 * 1000 * 1000,
         .sched_period = 2 * 1000 * 1000 * 1000,
         .sched_deadline = 11 * 1000 * 1000
@@ -42,19 +43,41 @@ void * threadA(void *p)
 
     sched_setattr(0, &attr, 0);
 
+    struct timespec rtclk_time = {0, 0};
     for (;;) 
-    {
-        printf("Time is - please fill this in using POSIX clock_gettime\n");
+    {   
+        clock_gettime(CLOCK_REALTIME, &rtclk_time);
+        const double current_time = (double)rtclk_time.tv_sec + ((double)rtclk_time.tv_nsec/1000000000.0);
+        
+        printf("Time is %lf\n", current_time);
         fflush(0);
         sched_yield();
     };
 }
 
-
+/**
+* Use 0 for SCHED_FIFO and 1 for SCHED_DEADLINE
+*/
 int main(int argc, char** argv) 
 {
+    if (argc != 2) {
+        printf("The number of arguments passed in, %d, must equal 1\n", argc);
+        return 1;
+    }
+
+    uint32_t schedule_policy;
+    const int input = atoi(argv[1]);
+    if(input == 0) {
+        schedule_policy = SCHED_FIFO;
+    } else if (input == 1) {
+        schedule_policy = SCHED_DEADLINE;
+    } else
+    {
+        printf("The number of arguments passed must me `0` or `1`\n", argv);
+    }
+
     pthread_t pthreadA;
-    pthread_create(&pthreadA, NULL, threadA, NULL);
+    pthread_create(&pthreadA, NULL, threadA, (void *)&schedule_policy);
     pthread_exit(0);
     return (EXIT_SUCCESS);
 }
