@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/q_24.dir/question-24.c.o" -o q_24 

@@ -1,0 +1,4 @@
+/home/rpi/RTES-ECEE-5623/midterm/build/CMakeFiles/quiz-2.dir
+/home/rpi/RTES-ECEE-5623/midterm/build/CMakeFiles/q_24.dir
+/home/rpi/RTES-ECEE-5623/midterm/build/CMakeFiles/edit_cache.dir
+/home/rpi/RTES-ECEE-5623/midterm/build/CMakeFiles/rebuild_cache.dir

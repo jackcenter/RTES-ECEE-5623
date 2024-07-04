@@ -1,0 +1,1 @@
+/usr/bin/cc -g "CMakeFiles/ecen-5623-homework-3.dir/src/sequencer.c.o" -o ecen-5623-homework-3  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/time_test.dir/src/timer_test.c.o -o time_test 

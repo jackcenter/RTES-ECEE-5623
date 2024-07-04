@@ -1,0 +1,4 @@
+/home/rpi/RTES-ECEE-5623/homework-3-2/build/CMakeFiles/ecen-5623-homework-3.dir
+/home/rpi/RTES-ECEE-5623/homework-3-2/build/CMakeFiles/time_test.dir
+/home/rpi/RTES-ECEE-5623/homework-3-2/build/CMakeFiles/edit_cache.dir
+/home/rpi/RTES-ECEE-5623/homework-3-2/build/CMakeFiles/rebuild_cache.dir
