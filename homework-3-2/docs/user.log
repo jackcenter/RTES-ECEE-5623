@@ -1,0 +1,343 @@
+2024-06-30T11:24:04.551457-06:00 raspberrypi packagekitd[24477]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-01T11:24:04.549199-06:00 raspberrypi packagekitd[25974]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-01T11:24:04.551353-06:00 raspberrypi packagekitd[25974]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-01T11:24:04.554715-06:00 raspberrypi packagekitd[25974]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-01T11:24:04.554873-06:00 raspberrypi packagekitd[25974]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-01T11:24:04.557120-06:00 raspberrypi packagekitd[25974]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-02T11:24:04.487553-06:00 raspberrypi packagekitd[27545]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-02T11:24:04.489514-06:00 raspberrypi packagekitd[27545]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-02T11:24:04.489708-06:00 raspberrypi packagekitd[27545]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-02T11:24:04.489835-06:00 raspberrypi packagekitd[27545]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-02T11:24:04.495301-06:00 raspberrypi packagekitd[27545]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-03T11:24:05.675589-06:00 raspberrypi packagekitd[29396]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-03T11:24:05.677546-06:00 raspberrypi packagekitd[29396]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-03T11:24:05.677742-06:00 raspberrypi packagekitd[29396]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-03T11:24:05.677848-06:00 raspberrypi packagekitd[29396]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-03T11:24:05.683249-06:00 raspberrypi packagekitd[29396]: pk_package_set_update_severity: assertion 'update_severity == PK_INFO_ENUM_UNKNOWN || update_severity == PK_INFO_ENUM_LOW || update_severity == PK_INFO_ENUM_NORMAL || update_severity == PK_INFO_ENUM_IMPORTANT || update_severity == PK_INFO_ENUM_CRITICAL' failed
+2024-07-04T09:31:54.219760-06:00 raspberrypi vsce-sign: Package file size:  64612
+2024-07-04T09:31:54.226867-06:00 raspberrypi vsce-sign: Signature archive file size:  10041
+2024-07-04T09:31:54.452180-06:00 raspberrypi vsce-sign: Manifest file size:  2416
+2024-07-04T09:31:54.452401-06:00 raspberrypi vsce-sign: Signature file size:  11989
+2024-07-04T09:31:55.113329-06:00 raspberrypi vsce-sign: ManifestPackageIntegrityPolicy succeeded.
+2024-07-04T09:31:55.395129-06:00 raspberrypi vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+2024-07-04T09:31:55.536126-06:00 raspberrypi vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+2024-07-04T09:31:55.603124-06:00 raspberrypi vsce-sign: SignatureIntegrityPolicy for primary timestamp signature succeeded.
+2024-07-04T09:31:55.605251-06:00 raspberrypi vsce-sign: SignatureValidityPolicy for primary timestamp signature succeeded.
+2024-07-04T09:31:55.678722-06:00 raspberrypi vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+2024-07-04T09:31:56.978501-06:00 raspberrypi vsce-sign: SignatureTrustPolicy for repository primary signature timestamp signature succeeded.
+2024-07-04T09:31:56.987064-06:00 raspberrypi vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+2024-07-04T09:31:57.310700-06:00 raspberrypi vsce-sign: SignatureTrustPolicy for repository primary signature succeeded.
+2024-07-04T09:31:57.312298-06:00 raspberrypi vsce-sign: RepositoryCountersignaturePolicy for repository primary signature succeeded.
+2024-07-04T09:31:57.314968-06:00 raspberrypi vsce-sign: Primary signature type:  repository primary signature
+2024-07-04T09:31:57.332455-06:00 raspberrypi vsce-sign: Primary signature status:  OK
+2024-07-04T09:31:57.332669-06:00 raspberrypi vsce-sign: Timestamp signature status:  OK
+2024-07-04T09:31:57.344898-06:00 raspberrypi vsce-sign: Exit code:  Success
+2024-07-04T10:15:58.271824-06:00 raspberrypi ecen-5623-homework-3: State: 0.100, 2.000, 2.500, -0.544, 0.864, -0.839, 10.000
+2024-07-04T10:19:39.044282-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:40.043609-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:41.043962-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:42.044471-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:43.044517-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:44.043753-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:45.043952-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:46.043619-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:47.043943-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:48.043999-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:48.044299-06:00 raspberrypi ecen-5623-homework-3: State: 0.100, 2.000, 2.500, -0.544, 0.864, -0.839, 10.000
+2024-07-04T10:19:49.043607-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:50.044503-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:51.044472-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:52.043736-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:53.044464-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:54.044499-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:55.043774-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:56.044495-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:57.043753-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:58.044495-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:19:58.044894-06:00 raspberrypi ecen-5623-homework-3: State: 0.200, 4.000, 5.000, 0.913, -0.519, 0.408, 20.000
+2024-07-04T10:19:59.043744-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:00.044479-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:01.044529-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:02.043749-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:03.044452-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:04.044490-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:05.043764-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:06.044482-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:07.043751-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:08.044480-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:08.045063-06:00 raspberrypi ecen-5623-homework-3: State: 0.300, 6.000, 7.500, -0.988, 0.056, 0.154, 30.000
+2024-07-04T10:20:09.044447-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:10.043764-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:11.044452-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:12.043732-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:13.044460-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:14.044512-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:15.044456-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:16.043776-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:17.044462-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:18.043769-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:18.044910-06:00 raspberrypi ecen-5623-homework-3: State: 0.400, 8.000, 10.000, 0.745, -0.588, -0.667, 40.000
+2024-07-04T10:20:19.043752-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:20.044518-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:21.044473-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:22.043753-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:23.044461-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:24.044496-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:25.044466-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:26.043755-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:27.044425-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:28.044598-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:28.045025-06:00 raspberrypi ecen-5623-homework-3: State: 0.500, 10.000, 12.500, -0.262, 0.771, 0.965, 50.000
+2024-07-04T10:20:29.043769-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:30.044496-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:31.043770-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:32.044495-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:33.044467-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:34.043777-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:35.044500-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:36.044487-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:37.044466-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:38.044573-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:38.045135-06:00 raspberrypi ecen-5623-homework-3: State: 0.600, 12.000, 15.000, -0.305, 0.970, -0.952, 60.000
+2024-07-04T10:20:39.043775-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:40.044482-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:41.044470-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:42.043768-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:43.044352-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:44.044493-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:45.044465-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:46.043773-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:47.044469-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:48.044558-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:48.044936-06:00 raspberrypi ecen-5623-homework-3: State: 0.700, 14.000, 17.500, 0.774, 0.652, 0.633, 70.000
+2024-07-04T10:20:49.043772-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:50.044509-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:51.043778-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:52.044484-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:53.044451-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:54.043775-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:55.044461-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:56.044497-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:57.043779-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:58.044566-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:20:58.044999-06:00 raspberrypi ecen-5623-homework-3: State: 0.800, 16.000, 20.000, -0.994, -0.823, -0.110, 80.000
+2024-07-04T10:20:59.043770-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:00.044504-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:01.044464-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:02.043767-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:03.044497-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:04.043767-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:05.044460-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:06.044501-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:07.043786-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:08.044576-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:08.045396-06:00 raspberrypi ecen-5623-homework-3: State: 0.900, 18.000, 22.500, 0.894, 0.537, -0.448, 90.000
+2024-07-04T10:21:09.043775-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:10.044502-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:11.043708-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:12.044153-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:13.044456-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:14.044506-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:15.043764-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:16.044482-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:17.044453-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:18.044570-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:18.044968-06:00 raspberrypi ecen-5623-homework-3: State: 1.000, 20.000, 25.000, -0.506, -0.941, 0.862, 100.000
+2024-07-04T10:21:24.352251-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:25.351730-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:26.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:27.352453-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:28.351727-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:29.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:30.351701-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:31.352353-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:32.352433-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:33.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:33.352840-06:00 raspberrypi ecen-5623-homework-3: State: 0.100, 2.000, 2.500, -0.544, 0.864, -0.839, 10.000
+2024-07-04T10:21:34.352432-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:35.351721-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:36.352417-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:37.352435-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:38.352443-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:39.351719-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:40.352432-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:41.352433-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:42.351701-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:43.352582-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:43.354385-06:00 raspberrypi ecen-5623-homework-3: State: 0.200, 4.000, 5.000, 0.913, -0.519, 0.408, 20.000
+2024-07-04T10:21:44.351761-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:45.352502-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:46.351744-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:47.352424-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:48.352453-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:49.351734-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:50.352458-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:51.351717-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:52.352460-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:53.352507-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:53.352929-06:00 raspberrypi ecen-5623-homework-3: State: 0.300, 6.000, 7.500, -0.988, 0.055, 0.154, 30.000
+2024-07-04T10:21:54.351723-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:55.352454-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:56.351725-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:57.352462-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:58.351735-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:21:59.352447-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:00.351716-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:01.352364-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:02.352445-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:03.352493-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:03.353187-06:00 raspberrypi ecen-5623-homework-3: State: 0.400, 8.000, 10.000, 0.745, -0.587, -0.667, 40.000
+2024-07-04T10:22:04.351748-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:05.352455-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:06.351722-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:07.352469-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:08.351744-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:09.352444-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:10.352446-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:11.351719-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:12.352449-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:13.352630-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:13.353030-06:00 raspberrypi ecen-5623-homework-3: State: 0.500, 10.000, 12.500, -0.262, 0.771, 0.965, 50.000
+2024-07-04T10:22:14.351738-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:15.352425-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:16.352455-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:17.351724-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:18.352449-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:19.352465-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:20.351742-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:21.352431-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:22.352449-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:23.352495-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:23.352913-06:00 raspberrypi ecen-5623-homework-3: State: 0.600, 12.000, 15.000, -0.305, 0.971, -0.952, 60.000
+2024-07-04T10:22:24.351728-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:25.352457-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:26.351725-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:27.352425-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:28.351734-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:29.352453-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:30.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:31.352459-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:32.351726-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:33.352508-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:33.352916-06:00 raspberrypi ecen-5623-homework-3: State: 0.700, 14.000, 17.500, 0.774, 0.654, 0.633, 70.000
+2024-07-04T10:22:34.351735-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:35.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:36.351721-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:37.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:38.351720-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:39.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:40.352444-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:41.352425-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:42.351719-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:43.352527-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:43.352951-06:00 raspberrypi ecen-5623-homework-3: State: 0.800, 16.000, 20.000, -0.994, -0.822, -0.110, 80.000
+2024-07-04T10:22:44.351727-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:45.352422-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:46.352465-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:47.351726-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:48.352443-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:49.351735-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:50.352437-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:51.352428-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:52.351745-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:53.351965-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:53.352191-06:00 raspberrypi ecen-5623-homework-3: State: 0.900, 18.000, 22.500, 0.894, 0.542, -0.448, 90.000
+2024-07-04T10:22:54.351574-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:55.351938-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:56.351569-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:57.351922-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:58.352458-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:22:59.351726-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:00.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:01.352457-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:02.351737-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:03.352513-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:03.352925-06:00 raspberrypi ecen-5623-homework-3: State: 1.000, 20.000, 25.000, -0.506, -0.940, 0.862, 100.000
+2024-07-04T10:23:04.351737-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:05.352427-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:06.352468-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:07.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:08.351723-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:09.352461-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:10.352448-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:11.351685-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:12.352431-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:13.352525-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:13.352965-06:00 raspberrypi ecen-5623-homework-3: State: 1.100, 22.000, 27.500, -0.044, 0.195, -0.999, 110.000
+2024-07-04T10:23:14.351724-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:15.352413-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:16.352454-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:17.351723-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:18.352467-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:19.352479-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:20.351726-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:21.352422-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:22.351731-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:23.352505-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:23.352931-06:00 raspberrypi ecen-5623-homework-3: State: 1.200, 24.000, 30.000, 0.581, 0.526, 0.814, 120.000
+2024-07-04T10:23:24.351730-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:25.352460-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:26.351723-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:27.352405-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:28.352456-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:29.351729-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:30.352443-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:31.351688-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:32.352443-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:33.352506-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:33.352936-06:00 raspberrypi ecen-5623-homework-3: State: 1.300, 26.000, 32.500, -0.930, -0.151, -0.367, 130.000
+2024-07-04T10:23:34.351739-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:35.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:36.351590-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:37.351945-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:38.351577-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:39.351934-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:40.351944-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:41.352443-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:42.351719-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:43.352626-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:43.353035-06:00 raspberrypi ecen-5623-homework-3: State: 1.400, 28.000, 35.000, 0.980, -0.941, -0.198, 140.000
+2024-07-04T10:23:44.351728-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:45.353394-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:46.351685-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:47.352485-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:48.352488-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:49.351747-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:50.352474-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:51.351669-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:52.352468-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:53.352541-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:53.352968-06:00 raspberrypi ecen-5623-homework-3: State: 1.500, 30.000, 37.500, -0.715, 1.000, 0.699, 150.000
+2024-07-04T10:23:54.351740-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:55.352455-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:56.352468-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:57.352502-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:58.351732-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:23:59.352439-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:00.352473-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:01.351743-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:02.352425-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:03.352502-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:03.352965-06:00 raspberrypi ecen-5623-homework-3: State: 1.600, 32.000, 40.000, 0.219, -0.711, -0.976, 160.000
+2024-07-04T10:24:04.351739-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:05.352476-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:06.351722-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:07.352468-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:08.351730-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:09.352447-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:10.352482-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:11.351734-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:12.352466-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:13.352537-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:13.352964-06:00 raspberrypi ecen-5623-homework-3: State: 1.700, 34.000, 42.500, 0.347, -0.851, 0.938, 170.000
+2024-07-04T10:24:14.351727-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:15.352419-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:16.351704-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:17.352450-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:18.351736-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:19.352457-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:20.352476-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:21.351721-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:22.352476-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:23.353454-06:00 raspberrypi ecen-5623-homework-3: State Updated.
+2024-07-04T10:24:23.353970-06:00 raspberrypi ecen-5623-homework-3: State: 1.800, 36.000, 45.000, -0.801, -0.678, -0.598, 180.000
