@@ -1,6 +1,7 @@
 // This is necessary for CPU affinity macros in Linux
 #define _GNU_SOURCE
 
+#include <errno.h>
 #include <math.h>
 #include <pthread.h>
 #include <sched.h>
@@ -19,13 +20,16 @@ typedef void (*TimerCallback)(int, siginfo_t*, void*);
 
 sem_t sem_0;
 sem_t sem_1;
+sem_t sem_2;
 
 pthread_mutex_t mutex_0;
+pthread_mutex_t always_locked_mutex;
 
 static timer_t timers[2];
 
 bool abort_service_0 = false;
 bool abort_service_1 = false;
+bool abort_service_2 = false;
 
 volatile State state = {.position.latitude = 0.0,
                         .position.longitude = 0.0,
@@ -40,6 +44,7 @@ void interval_expired(int signum, siginfo_t* info, void* context);
 
 void* service_0(void* threadp);
 void* service_1(void* threadp);
+void* service_2(void* threadp);
 
 static void setup_main_thread(void);
 static void initialize_timer(const struct timespec period, const size_t id, TimerCallback callback,
@@ -47,16 +52,16 @@ static void initialize_timer(const struct timespec period, const size_t id, Time
 
 void main(void) {
   signal(SIGINT, sigint_handler);   // handles exiting by ctrl-c
+  pthread_mutex_lock(&always_locked_mutex);
   setup_main_thread();
   
-
   const int rt_max_prio = sched_get_priority_max(SCHED_FIFO);
 
   cpu_set_t thread_cpu_set;
   CPU_ZERO(&thread_cpu_set);
   CPU_SET(3, &thread_cpu_set);
 
-  const int number_of_threads = 2;
+  const int number_of_threads = 3;
   pthread_attr_t pthread_attributes[number_of_threads];
   struct sched_param schedule_params[number_of_threads];
   pthread_t pthreads[number_of_threads];
@@ -64,6 +69,7 @@ void main(void) {
   void* (*service_functions[number_of_threads])(void*);
   service_functions[0] = service_0;
   service_functions[1] = service_1;
+  service_functions[2] = service_2;
 
   for (int i = 0; i < number_of_threads; ++i) {
     if (pthread_attr_init(&pthread_attributes[i])) {
@@ -101,17 +107,17 @@ void main(void) {
   struct timespec timer_0_period = {1, 0};
   initialize_timer(timer_0_period, 0, interval_expired, &timers[0]);
 
-  while (!abort_service_0 && !abort_service_1) {
+  while (!abort_service_0 && !abort_service_1 && !abort_service_2) {
     pause();
   }
 
   abort_service_0 = true;
   abort_service_1 = true;
+  abort_service_2 = true;
 
   for (size_t i = 0; i < number_of_threads; ++i) {
     pthread_join(pthreads[i], 0);
   }
-
 }
 
 void interval_expired(int signum, siginfo_t* info, void* context) {
@@ -123,9 +129,14 @@ void interval_expired(int signum, siginfo_t* info, void* context) {
     sem_post(&sem_1);
   }
 
+  if (count % 10 == 0) {
+    sem_post(&sem_2);
+  }
+
   if (count % 180 == 0) {
     abort_service_0 = true;
     abort_service_1 = true;
+    abort_service_2 = true;
   }
 }
 
@@ -137,6 +148,11 @@ void setup_main_thread(void) {
 
   if (sem_init(&sem_1, 0, 0)) {
     printf("Failed to initialize S1 semaphore\n");
+    exit(-1);
+  }
+
+  if (sem_init(&sem_2, 0, 1)) {
+    printf("Failed to initialize S2 semaphore\n");
     exit(-1);
   }
 
@@ -179,8 +195,7 @@ void initialize_timer(const struct timespec period, const size_t id, TimerCallba
 void sigint_handler(int sig) {
   abort_service_0 = true;
   abort_service_1 = true;
-
-  exit(EXIT_SUCCESS);
+  abort_service_2 = true;
 }
 
 
@@ -236,6 +251,23 @@ void* service_1(void* threadp) {
     syslog(LOG_CRIT, "State: %.3lf, %.3lf, %.3lf, %.3lf, %.3lf, %.3lf, %.3lf\n", state.position.latitude,
            state.position.longitude, state.position.altitude, state.attitude.roll, state.attitude.pitch,
            state.attitude.yaw, state.timestamp_s);
+  }
+
+  pthread_exit((void*)0);
+}
+
+void* service_2(void* threadp) {
+  while (!abort_service_2) {
+    sem_wait(&sem_2);
+    struct timespec timeout = {10, 0};
+    if(pthread_mutex_timedlock(&always_locked_mutex, &timeout) == ETIMEDOUT) {
+      struct timespec current_timespec = {0, 0};
+      clock_gettime(CLOCK_REALTIME, &current_timespec);
+      const double time_s = (double)current_timespec.tv_sec + (double)current_timespec.tv_nsec / 1000000000.0f;
+      printf("No new data available at %.3f\n", time_s);
+    } 
+    // Would supposedly do something with the information and unlock the mutex
+
   }
 
   pthread_exit((void*)0);
