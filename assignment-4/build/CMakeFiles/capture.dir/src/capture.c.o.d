@@ -1,14 +1,14 @@
 CMakeFiles/capture.dir/src/capture.c.o: \
  /home/rpi/RTES-ECEE-5623/assignment-4/src/capture.c \
- /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
  /usr/include/aarch64-linux-gnu/bits/timesize.h \
  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
  /usr/include/aarch64-linux-gnu/bits/long-double.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
- /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h /usr/include/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdarg.h \
  /usr/include/aarch64-linux-gnu/bits/types.h \
@@ -51,16 +51,31 @@ CMakeFiles/capture.dir/src/capture.c.o: \
  /usr/include/string.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/getopt.h \
+ /usr/include/strings.h /usr/include/assert.h /usr/include/getopt.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_ext.h /usr/include/errno.h \
- /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/lib/linux/uapi/arm64/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/fcntl.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_ext.h /usr/include/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/aarch64-linux-gnu/bits/stat.h \
- /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_stat.h /usr/include/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+ /usr/include/aarch64-linux-gnu/bits/environments.h \
+ /usr/include/aarch64-linux-gnu/bits/confname.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd_ext.h /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/lib/linux/uapi/arm64/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/syslog.h \
+ /usr/include/aarch64-linux-gnu/sys/syslog.h \
+ /usr/include/aarch64-linux-gnu/bits/syslog-path.h \
+ /usr/include/aarch64-linux-gnu/sys/stat.h \
+ /usr/include/aarch64-linux-gnu/sys/time.h \
+ /usr/include/aarch64-linux-gnu/sys/mman.h \
+ /usr/include/aarch64-linux-gnu/bits/mman.h \
+ /usr/include/aarch64-linux-gnu/bits/mman-map-flags-generic.h \
+ /usr/include/aarch64-linux-gnu/bits/mman-linux.h \
+ /usr/include/aarch64-linux-gnu/bits/mman-shared.h \
+ /usr/include/aarch64-linux-gnu/bits/mman_ext.h \
  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
  /usr/lib/linux/uapi/arm64/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
@@ -68,21 +83,6 @@ CMakeFiles/capture.dir/src/capture.c.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
- /usr/include/aarch64-linux-gnu/sys/mman.h \
- /usr/include/aarch64-linux-gnu/bits/mman.h \
- /usr/include/aarch64-linux-gnu/bits/mman-map-flags-generic.h \
- /usr/include/aarch64-linux-gnu/bits/mman-linux.h \
- /usr/include/aarch64-linux-gnu/bits/mman-shared.h \
- /usr/include/aarch64-linux-gnu/bits/mman_ext.h \
- /usr/include/aarch64-linux-gnu/sys/stat.h \
- /usr/include/aarch64-linux-gnu/sys/time.h /usr/include/syslog.h \
- /usr/include/aarch64-linux-gnu/sys/syslog.h \
- /usr/include/aarch64-linux-gnu/bits/syslog-path.h /usr/include/unistd.h \
- /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
- /usr/include/aarch64-linux-gnu/bits/environments.h \
- /usr/include/aarch64-linux-gnu/bits/confname.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
- /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/videodev2.h /usr/include/linux/types.h \
  /usr/lib/linux/uapi/arm64/asm/types.h /usr/include/asm-generic/types.h \
  /usr/include/asm-generic/int-ll64.h \

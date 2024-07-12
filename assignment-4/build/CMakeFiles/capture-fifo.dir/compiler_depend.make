@@ -145,18 +145,6 @@ CMakeFiles/capture-fifo.dir/src/capture-fifo.c.o: /home/rpi/RTES-ECEE-5623/assig
   /usr/include/syslog.h \
   /usr/include/aarch64-linux-gnu/sys/syslog.h \
   /usr/include/aarch64-linux-gnu/bits/syslog-path.h \
-  /usr/include/aarch64-linux-gnu/sys/stat.h \
-  /usr/include/aarch64-linux-gnu/bits/statx.h \
-  /usr/include/linux/stat.h \
-  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
-  /usr/include/aarch64-linux-gnu/sys/mman.h \
-  /usr/include/aarch64-linux-gnu/bits/mman.h \
-  /usr/include/aarch64-linux-gnu/bits/mman-map-flags-generic.h \
-  /usr/include/aarch64-linux-gnu/bits/mman-linux.h \
-  /usr/include/aarch64-linux-gnu/bits/mman-shared.h \
-  /usr/include/aarch64-linux-gnu/bits/mman_ext.h \
   /usr/include/aarch64-linux-gnu/sys/ioctl.h \
   /usr/include/aarch64-linux-gnu/bits/ioctls.h \
   /usr/lib/linux/uapi/arm64/asm/ioctls.h \
@@ -166,6 +154,18 @@ CMakeFiles/capture-fifo.dir/src/capture-fifo.c.o: /home/rpi/RTES-ECEE-5623/assig
   /usr/include/asm-generic/ioctl.h \
   /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
   /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/sys/mman.h \
+  /usr/include/aarch64-linux-gnu/bits/mman.h \
+  /usr/include/aarch64-linux-gnu/bits/mman-map-flags-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/mman-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/mman-shared.h \
+  /usr/include/aarch64-linux-gnu/bits/mman_ext.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/linux/videodev2.h \
   /usr/include/linux/v4l2-common.h \
   /usr/include/linux/v4l2-controls.h \
@@ -177,9 +177,11 @@ CMakeFiles/capture-fifo.dir/src/capture-fifo.c.o: /home/rpi/RTES-ECEE-5623/assig
 
 /usr/include/linux/videodev2.h:
 
-/usr/include/aarch64-linux-gnu/sys/ttydefaults.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_statx.h:
 
-/usr/include/asm-generic/ioctl.h:
+/usr/include/linux/stat.h:
+
+/usr/include/aarch64-linux-gnu/sys/stat.h:
 
 /usr/include/aarch64-linux-gnu/bits/mman_ext.h:
 
@@ -189,11 +191,9 @@ CMakeFiles/capture-fifo.dir/src/capture-fifo.c.o: /home/rpi/RTES-ECEE-5623/assig
 
 /usr/include/aarch64-linux-gnu/sys/mman.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_statx.h:
+/usr/include/aarch64-linux-gnu/sys/ttydefaults.h:
 
-/usr/include/linux/stat.h:
-
-/usr/include/aarch64-linux-gnu/sys/stat.h:
+/usr/include/asm-generic/ioctl.h:
 
 /usr/include/aarch64-linux-gnu/bits/syslog-path.h:
 

@@ -48,7 +48,7 @@
 #define VRES 240
 #define HRES_STR "320"
 #define VRES_STR "240"
-#define FRAMES 1800
+#define FRAMES 10
 
 typedef void (*TimerCallback)(int, siginfo_t *, void *);
 
@@ -380,8 +380,6 @@ static void mainloop(void) {
 
   size_t count = 0;
   while (count < frame_count) {
-    printf("Count: %d\n",
-           count + 1); // Display frame number, not the index number
     for (;;) {
       fd_set fds;
       struct timeval tv;
@@ -983,7 +981,6 @@ void interval_expired(int signum, siginfo_t *info, void *context) {
   if (keep_running) {
     ++count;
     sem_post(&sem_0);
-    printf("Interval: %d\n", count);
   }
 
   if (count % FRAMES == 0) {
@@ -1011,8 +1008,6 @@ void *service_0(void *threadp) {
 
     struct timespec time_error;
 
-    printf("Count: %d\n",
-           count + 1); // Display frame number, not the index number
     for (;;) {
       fd_set fds;
       struct timeval tv;
@@ -1053,7 +1048,6 @@ void *service_0(void *threadp) {
         getDurationInMilliseconds(service_start_time, service_stop_time);
 
     ++framecnt;
-    printf("%d\n", framecnt);
   }
 
   pthread_exit((void *)0);
