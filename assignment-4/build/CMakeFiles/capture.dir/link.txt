@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/capture.dir/src/capture.c.o -o capture  libecen-5623-homework-4_lib.a 

@@ -1,0 +1,5 @@
+/home/rpi/RTES-ECEE-5623/assignment-4/build/CMakeFiles/capture.dir
+/home/rpi/RTES-ECEE-5623/assignment-4/build/CMakeFiles/capture-fifo.dir
+/home/rpi/RTES-ECEE-5623/assignment-4/build/CMakeFiles/ecen-5623-homework-4_lib.dir
+/home/rpi/RTES-ECEE-5623/assignment-4/build/CMakeFiles/edit_cache.dir
+/home/rpi/RTES-ECEE-5623/assignment-4/build/CMakeFiles/rebuild_cache.dir

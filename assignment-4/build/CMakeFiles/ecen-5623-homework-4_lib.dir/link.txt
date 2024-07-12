@@ -1,0 +1,2 @@
+/usr/bin/ar qc libecen-5623-homework-4_lib.a "CMakeFiles/ecen-5623-homework-4_lib.dir/lib/utilities.c.o"
+/usr/bin/ranlib libecen-5623-homework-4_lib.a
