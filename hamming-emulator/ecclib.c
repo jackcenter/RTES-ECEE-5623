@@ -1,6 +1,6 @@
 #include "ecclib.h"
 
-static int printTrace=0;
+static int printTrace=1;
 
 void traceOn(void)
 {
@@ -264,4 +264,94 @@ void print_code(unsigned char codeword)
     if(codeword & P04_BIT) printf("1"); else printf("0");
 
     printf("\n");
+}
+
+// flip bit in encoded word: pW p1 p2 d1 p3 d2 d3 d4 p4 d5 d6 d7 d8
+// bit position:             00 01 02 03 04 05 06 07 08 09 10 11 12
+void flip_bit(ecc_t *ecc, unsigned char *address, unsigned short bit_to_flip) {
+    unsigned int offset = address - ecc->data_memory;
+    unsigned char byte=0;
+    unsigned short data_bit_to_flip=0, parity_bit_to_flip=0;
+    int data_flip=1;
+
+    switch(bit_to_flip)
+    {
+        // parity bit pW, p01 ... p04
+        case 0: 
+            parity_bit_to_flip = 4;
+            data_flip=0;
+            break;
+        case 1: 
+            parity_bit_to_flip = 0;
+            data_flip=0;
+            break;
+        case 2:
+            parity_bit_to_flip = 1;
+            data_flip=0;
+            break;
+        case 4:
+            data_flip=0;
+            parity_bit_to_flip = 2;
+            break;
+        case 8:
+            data_flip=0;
+            parity_bit_to_flip = 3;
+            break;
+
+        // data bit d01 ... d08
+        case 3: 
+            data_bit_to_flip = 0;
+            break;
+        case 5: 
+            data_bit_to_flip = 1;
+            break;
+        case 6: 
+            data_bit_to_flip = 2;
+            break;
+        case 7: 
+            data_bit_to_flip = 3;
+            break;
+        case 9: 
+            data_bit_to_flip = 4;
+            break;
+        case 10: 
+            data_bit_to_flip = 5;
+            break;
+        case 11: 
+            data_bit_to_flip = 6;
+            break;
+        case 12: 
+            data_bit_to_flip = 7; 
+            break;
+
+
+        default:
+            printf("flipped bit OUT OF RANGE\n");
+            return;
+    }
+
+    if(data_flip)
+    {
+        printf("DATA  : request=%hu\n", bit_to_flip);
+        printf("DATA  : bit to flip=%hu\n", data_bit_to_flip);
+
+        byte = ecc->data_memory[offset];
+        printf("DATA  : original byte    = 0x%02X\n", byte);
+        byte ^= (1 << (data_bit_to_flip));
+        printf("DATA  : flipped bit byte = 0x%02X\n\n", byte);
+        ecc->data_memory[offset] = byte;
+
+    }
+    else
+    {
+        printf("PARITY: request=%hu\n", bit_to_flip);
+        printf("PARITY: bit to flip=%hu\n", parity_bit_to_flip);
+
+        byte = ecc->code_memory[offset];
+        printf("PARITY: original byte    = 0x%02X\n", byte);
+        byte ^= (1 << (parity_bit_to_flip));
+        printf("PARITY: flipped bit byte = 0x%02X\n\n", byte);
+        ecc->code_memory[offset] = byte;
+    }
+
 }

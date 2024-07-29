@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#ifndef HEADER_GUARD
+#define HEADER_GUARD
+
 //#define MEM_SIZE (1024*1024)
 #define MEM_SIZE (1024)
 #define NO_ERROR (0)
@@ -35,6 +38,8 @@ typedef struct emulated_ecc
     unsigned char code_memory[MEM_SIZE];
 } ecc_t;
 
+void flip_bit(ecc_t *ecc, unsigned char *address, unsigned short bit_to_flip);
+
 void print_code(unsigned char codeword);
 void print_code_word(ecc_t *ecc, unsigned char *address);
 void print_data_word(ecc_t *ecc, unsigned char *address);
@@ -50,3 +55,5 @@ unsigned char *enable_ecc_memory(ecc_t *ecc);
 
 void traceOn(void);
 void traceOff(void);
+
+#endif  // HEADER_GUARD

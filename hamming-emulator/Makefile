@@ -11,7 +11,7 @@ LIBS=
 DRIVER=ecctest
 
 HFILES= ecclib.h
-CFILES= ecctest.c ecclib.c
+CFILES= ecclib.c quiz_6_test.c
 
 SRCS= ${HFILES} ${CFILES}
 OBJS= ${CFILES:.c=.o}
